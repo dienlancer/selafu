@@ -11,7 +11,7 @@
 	<header>
 		<div class="container">
 			<div id="header">
-				<div class="logo"><a href="<?php echo esc_url( home_url() );?>"><img style="height:150px" src="<?php echo get_template_directory_uri()?>/images/logo_selafu.png"></a></div>
+				<div class="logo"><a href="<?php echo esc_url( home_url() );?>"><img src="<?php echo site_url('wp-content/uploads/logo-selafu.png'); ?>"></a></div>
 			</div>
 		</div>
 	</header>
@@ -27,7 +27,8 @@
 			</div>
 			<div class="hotline">
 				<div class="language">Selafu sẵn sàng phục vụ:</div>
-				<img src="<?php echo get_template_directory_uri()?>/images/hotline.jpg">
+				<div>Hotline</div>
+				<div class="nikasy">0984118912</div>
 			</div>
 		</div>
 	</nav>

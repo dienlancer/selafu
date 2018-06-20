@@ -45,7 +45,7 @@ a:focus {
 
 /*header*/
 #header{
-	margin-bottom: -59px;
+	
 }
 
 #header .logo{
@@ -66,7 +66,7 @@ a:focus {
 }
 
 .header-nav a{
-	color:#0d668f;
+	color:#0D612C;
 }
 
 .language a{
@@ -74,7 +74,7 @@ a:focus {
 }
 
 .hotline {
-    line-height:40px;
+    line-height:35px;
     float:right;
 	text-align:right
 }
@@ -97,7 +97,7 @@ a:focus {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #11668f;
+    background-color: #0D612C;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 124px;
@@ -160,15 +160,14 @@ a:focus {
 }
 
 .title_home_block{
-	margin-left: 50px;
-    font-size: 24px;
-    font-weight:700;
-    color: #0d668f;
-    background: url(../images/bg_title_home_03.png) no-repeat bottom center;
+	font-size: 24px;
+    font-weight: 700;
+    color: #0D612C;
     display: inline-block;
     padding: 3px 10px;
-	background-size:100%;
-	margin-bottom:15px
+    background-size: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #0D612C;
 }
 
 .box-co-so-san-xuat .title_home_block, .box-san-pham .title_home_block{
@@ -203,16 +202,16 @@ a:focus {
 	margin:0px 25px
 }
 .item_sanpham .info{
-	background:#fff url(../images/sanpham_06.png) no-repeat top center;
-	margin-top:-38px;
+	
+	
 	position:relative;
 	z-index:11
 }
 
 .item_sanpham .info .ten{
 	font-family: 'Lobster', cursive;
-	font-size:36px;
-	color:#0d668f;
+	font-size:25px;
+	color:#0D612C;
 }
 
 .box-chuyen-muc{
@@ -306,7 +305,7 @@ a:focus {
 
 .bandogoogle .border_map{
 	width:400px;
-	border: 2px solid #0d668f;
+	border: 2px solid #0D612C;
 	padding:10px
 }
 .bandogoogle iframe{
@@ -394,14 +393,14 @@ a:focus {
 	min-height:325px
 }
 .category_post .entry-title{ 
-	color:#0d668f;
+	color:#0D612C;
 	font-family: 'Lobster', cursive;
 	padding-left:30px;
 	font-size:36px
 }
 
 .list-buangon .entry-title{ 
-	color:#0d668f;
+	color:#0D612C;
 	font-family: 'Lobster', cursive;
 	font-size:24px
 }
@@ -424,7 +423,7 @@ a:focus {
 }
 
 .category_post .entry-title a{
-	color:#0d668f;
+	color:#0D612C;
 } 
 .category_post .buangon-description{
 	padding:0px 73px
@@ -469,8 +468,8 @@ a:focus {
 .head_widget{
 	 font-weight: 700;
 	font-size:18px;
-	color:#0d668f;
-	border-bottom:1px solid #0d668f;
+	color:#0D612C;
+	border-bottom:1px solid #0D612C;
 	padding-bottom:10px;
 	margin-bottom:10px
 }
@@ -487,12 +486,12 @@ a:focus {
 	font-size:18px;
 	background:#fff;
 	padding:10px 0px;
-	color:#0d668f;
+	color:#0D612C;
 	font-weight:bold;
 	 font-weight: 700;
 }
 .breadcrumb a{
-	color:#0d668f
+	color:#0D612C
 }
 .info_contact{
 	line-height:24px
@@ -567,16 +566,16 @@ a:focus {
 
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-	color: #0d668f;
+	color: #0D612C;
     background-color: transparent;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #0d668f;
+    color: #0D612C;
     cursor: default;
     background-color: #fff;
 	border:none;
-    border-bottom: 2px solid #0d668f;
+    border-bottom: 2px solid #0D612C;
 }
 
 .tab-content{
@@ -638,7 +637,7 @@ blockquote:after{
     top: -25px;
     text-align: center;
     left: 0;
-	color:#0d668f
+	color:#0D612C
 }
 
 .info_detail_sp{
@@ -658,7 +657,7 @@ blockquote:after{
 	margin-right:42px;
 	text-align:center;
 	font-weight:700;
-	color:#0d668f
+	color:#0D612C
 }
 
 .relate-post ul{
@@ -668,7 +667,7 @@ blockquote:after{
 .relate-post ul li a{
 	font-family: 'Lobster', cursive;
 	font-size:20px;
-	color:#0d668f
+	color:#0D612C
 }
 
 .bnt_sanpham .arrowleft, .bnt_sanpham .arrowright{
@@ -690,7 +689,7 @@ blockquote:after{
 
 /*footer*/
 #footer{
-	background:#11668f;
+	background:#0D612C;
 	border-top:8px solid #de953a;
 	color:#fff;
 	padding: 42px 0px;
@@ -819,5 +818,20 @@ blockquote:after{
     transition: all 0.3s ease;
 }
 .img-link img{
-	width:100%
+	width:100%;
+}
+.nikasy{
+	color: #0D612C;
+	font-size: 20px;
+	font-weight: bold
+}
+.logo a img{
+	width: 200px;
+}
+.category-title{
+	display: flex;
+	justify-content: center;
+}
+.lica{
+	margin-top: 15px
 }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php 
-	$image = get_field('bua_ngon', 'option');
+	$image = get_field('bua_ngon', 'option');	
 ?>
 <section>
 	<div class="archive-title" style="background-image:url('<?php if( !empty($image) ): ?><?php echo $image['url']; ?><?php endif; ?>')">
