@@ -180,7 +180,7 @@ a:focus {
 }
 
 .content_home_block em{
-	background:#de953a;
+	background:#0D612C;
 	color:#fff;
 	padding:0px 16px 
 }
@@ -288,7 +288,7 @@ a:focus {
 }
 .box-item .box-info-in .box-xem a span{
 	color:#fff;
-	background: #de953a;
+	background: #0D612C;
     padding: 3px 8px;
     font-style: italic;
 	font-weight:700;
@@ -317,7 +317,7 @@ a:focus {
 	text-align:center
 }
 .xemthem_g span{
-	background:#de953a;
+	background:#0D612C;
 	font-style: italic;
     font-weight: 700;
 	color:#fff;
@@ -361,7 +361,7 @@ a:focus {
 }
 
 .box-news-content .xemchitiet {
-	color:#de953a;
+	color:#0D612C;
 	font-style:italic;
 	font-size:11px;
 	 font-weight: 700;
@@ -407,7 +407,7 @@ a:focus {
 
 .list-buangon .entry-author, .list-buangon .entry-category{
 	font-style: italic;
-	color:#de953a
+	color:#0D612C
 }
 
 .entry{
@@ -540,7 +540,7 @@ a:focus {
 
 .read-more{
 	font-style:italic;
-	color:#de953a !important
+	color:#0D612C !important
 }
 
 /*About*/
@@ -690,7 +690,7 @@ blockquote:after{
 /*footer*/
 #footer{
 	background:#0D612C;
-	border-top:8px solid #de953a;
+	border-top:8px solid #0D612C;
 	color:#fff;
 	padding: 42px 0px;
 }
